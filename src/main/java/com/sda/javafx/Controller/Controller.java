@@ -2,13 +2,10 @@ package com.sda.javafx.Controller;
 
 import com.sda.javafx.Main;
 import com.sda.javafx.Model.Person;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-
-import java.awt.event.ActionListener;
 
 
 public class Controller {
@@ -21,17 +18,17 @@ public class Controller {
     @FXML
     private TableColumn<Person, String> lastNameColumn;
     @FXML
-    private Label kolumnaName1;
+    private Label labelFirstName;
     @FXML
-    private Label kolumnaName2;
+    private Label labelLastName;
     @FXML
-    private Label kolumnaName3;
+    private Label labelStreet;
     @FXML
-    private Label kolumnaName4;
+    private Label labelCity;
     @FXML
-    private Label kolumnaName5;
+    private Label labelZIP;
     @FXML
-    private Label kolumnaName6;
+    private Label labelBirth;
 
 
     //referencja klasy main
@@ -59,14 +56,14 @@ public class Controller {
 
     public void showPerson(Person person) {
 
-        kolumnaName1.setText(person.getFirstname());
+        labelFirstName.setText(person.getFirstname());
         System.out.println(person.getFirstname());
 
-        kolumnaName2.setText(person.getLastname());
-        kolumnaName3.setText(person.getStreet());
-        kolumnaName4.setText(person.getCity());
-        kolumnaName5.setText(person.getZipCode());
-        kolumnaName6.setText(person.getBirthday());
+        labelLastName.setText(person.getLastname());
+        labelStreet.setText(person.getStreet());
+        labelCity.setText(person.getCity());
+        labelZIP.setText(person.getZipCode());
+        labelBirth.setText(person.getBirthday());
 
 
     }

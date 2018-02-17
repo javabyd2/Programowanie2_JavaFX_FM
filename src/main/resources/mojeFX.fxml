@@ -79,32 +79,32 @@
                               <Insets left="10.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="kolumnaName1" text="Label" GridPane.columnIndex="1">
+                        <Label fx:id="labelFirstName" text="Label" GridPane.columnIndex="1">
                            <GridPane.margin>
                               <Insets left="10.0" />
                            </GridPane.margin>
                         </Label>
-                        <Label fx:id="kolumnaName2" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <Label fx:id="labelLastName" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <padding>
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="kolumnaName3" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                        <Label fx:id="labelStreet" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2">
                            <padding>
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="kolumnaName4" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                        <Label fx:id="labelCity" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3">
                            <padding>
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="kolumnaName5" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                        <Label fx:id="labelZIP" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4">
                            <padding>
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <Label fx:id="kolumnaName6" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                        <Label fx:id="labelBirth" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5">
                            <padding>
                               <Insets left="10.0" />
                            </padding>
