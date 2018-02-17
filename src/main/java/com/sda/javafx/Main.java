@@ -62,7 +62,7 @@ public class Main extends Application {
 
     public void showPersonLayout() throws IOException {
 
-        FXMLLoader loader = new FXMLLoader((getClass().getClassLoader().getResource("mojeFX.fxml")));
+        FXMLLoader loader =new FXMLLoader((getClass().getClassLoader().getResource("mojeFX.fxml")));
 
         AnchorPane person = loader.load();
         rootLayout.setCenter(person);

@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane fx:controller="com.sda.javafx.Controller.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sda.javafx.Controller.Controller">
    <children>
       <SplitPane dividerPositions="0.29797979797979796" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -113,9 +113,10 @@
                   </GridPane>
                   <ButtonBar layoutX="57.0" layoutY="331.0" prefHeight="40.0" prefWidth="260.0">
                     <buttons>
-                      <Button mnemonicParsing="false" text="Add" />
-                        <Button mnemonicParsing="false" text="Edit" />
-                        <Button mnemonicParsing="false" text="Delete" />
+
+                        <Button mnemonicParsing="false" onAction="#addPerson" text="Add" />
+                        <Button mnemonicParsing="false" onAction="#deletePerson" text="Delete" />
+                        <Button mnemonicParsing="false" text="Button" />
                     </buttons>
                   </ButtonBar>
                </children>

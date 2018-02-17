@@ -13,8 +13,6 @@ public class Person {
     private StringProperty zipCode;
 
 
-
-
     public Person(String firstname, String lastname, String street, String city, String birthday, String zipCode) {
         this.firstname = new SimpleStringProperty(firstname);
         this.lastname = new SimpleStringProperty(lastname);
